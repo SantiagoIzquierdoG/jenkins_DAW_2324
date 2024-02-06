@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.072" tests="23" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\laiaromeo\Desktop\calculadora-ets\target\test-classes;C:\Users\laiaromeo\Desktop\calculadora-ets\target\classes;C:\Users\laiaromeo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\laiaromeo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Atlantic/Canary"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\laiaromeo\AppData\Local\Temp\surefire8267395971792704155\surefirebooter-20240206182623368_3.jar C:\Users\laiaromeo\AppData\Local\Temp\surefire8267395971792704155 2024-02-06T18-26-23_278-jvmRun1 surefire-20240206182623368_1tmp surefire_0-20240206182623368_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.jaime.calculadora.ets.CalculadoraEtsTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\laiaromeo\Desktop\calculadora-ets\target\test-classes;C:\Users\laiaromeo\Desktop\calculadora-ets\target\classes;C:\Users\laiaromeo\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\laiaromeo\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\laiaromeo\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\laiaromeo"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\laiaromeo\Desktop\calculadora-ets"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\laiaromeo\AppData\Local\Temp\surefire8267395971792704155\surefirebooter-20240206182623368_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="laiaromeo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-20\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\laiaromeo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LAIARO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\Users\laiaromeo\Desktop\calculadora-ets"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\laiaromeo\AppData\Local\Microsoft\WindowsApps;C:\Users\laiaromeo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\laiaromeo\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testResta" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.021">
+    <system-out><![CDATA[Antes de todas las pruebas.
+Antes de cada prueba.
+resta
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testSumar" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+sumar
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testMain" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+main
+Hello World!
+0
+No se puede realizar la división.
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testEsPrimoNumeroMenor1" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.003">
+    <system-out><![CDATA[Antes de cada prueba.
+esPrimo menor de 1
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testEsPrimoNumero0" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+esPrimo 0
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testEsPrimoNumero1" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.002">
+    <system-out><![CDATA[Antes de cada prueba.
+esPrimo 1
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testEsPrimoNumero2" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.0">
+    <system-out><![CDATA[Antes de cada prueba.
+esPrimo 2
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testMultiplicar" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+multiplicar
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testEsPrimoNumeroMayor1False" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+esPrimo mayor de 1 false
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDivisionEntre0" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+division Exception 0
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testDivision" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+division
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testEsPrimoNumeroMayor1True" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+esPrimo mayor de 1 true
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaLimite1" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia limite 1
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaLimite2" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.0">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia limite 2
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaLimite3" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia limite 3
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaLimite4" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia limite 4
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaLimite5" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia limite 5
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaLimite6" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia limite 6
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaValida1" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.002">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia válida 1
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaValida2" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia válida 2
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaInvalida1" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia inválida 1
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaInvalida2" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia inválida 2
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+  <testcase name="testPotenciaInvalida3" classname="com.jaime.calculadora.ets.CalculadoraEtsTest" time="0.001">
+    <system-out><![CDATA[Antes de cada prueba.
+potencia inválida 3
+Después de cada prueba.
+]]></system-out>
+  </testcase>
+</testsuite>
