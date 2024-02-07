@@ -1,17 +1,3 @@
-# **Taller de Jenkins**
-
-![Jenkins](https://img.shields.io/badge/Jenkins-gray?style=flat-square&logo=jenkins)
-![Docker](https://img.shields.io/badge/Docker-gray?style=flat-square&logo=docker)
-![Angular](https://img.shields.io/badge/Angular-gray?style=flat-square&logo=angular)
-
-## Descripción 
-
-Bienvenidos a este taller de Jenkins, donde encontrarás una guía básica sobre la herramienta de CI/CD Jenkins, información sobre la instalación utilizando Docker y como implementar un pipeline.
-
-## Contenido
-
-- [Instalación de Jenkins](#Instalación-de-Jenkins)
-
 
 ## Instalación de Jenkins
 
