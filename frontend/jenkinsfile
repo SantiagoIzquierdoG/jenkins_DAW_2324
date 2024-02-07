@@ -15,7 +15,7 @@ pipeline {
   stages {
     stage('install') {
       steps {
-        git branch: 'develop', url: 'https://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@github.com/laiafp/jenkins_DAW_2324.git'
+        git branch: 'main', url: 'https://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@github.com/laiafp/jenkins_DAW_2324.git'
         dir('frontend') {
           sh 'npm install'
         }
